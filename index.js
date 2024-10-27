@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
 })
 app.use(express.json());
 app.use(cors({
-    origin:'http://localhost:4000',
+    origin:'https://reader-space-backend.vercel.app/',
     origin:'https://reader-space-frontend.vercel.app/',
     methods: ['GET', 'POST'],
 }))
