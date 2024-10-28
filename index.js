@@ -10,6 +10,7 @@ app.use(cors({
   origin: [
     'https://reader-space-backend.vercel.app',
     'https://reader-space-frontend.vercel.app',
+    'https://readerspace-backend.onrender.com/api/books',
     'http://localhost:4000',
     'http://localhost:5173'
   ],
